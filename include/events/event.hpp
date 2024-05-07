@@ -38,7 +38,7 @@ namespace event {
         auto it = std::find(_Handlers.begin(), _Handlers.end(), handler);
 
         if(it != _Handlers.end()) _Handlers.erase(it);
-        return *this
+        return *this;
     }
 
     template<typename PT>
